@@ -1,4 +1,4 @@
-VERSION := v1.0.0
+VERSION := v1.0.1-kc1
 
 # Name of this service/application
 SERVICE_NAME := redis-operator
@@ -7,7 +7,7 @@ SERVICE_NAME := redis-operator
 IMAGE_NAME := spotahome/$(SERVICE_NAME)
 
 # Repository url for this project
-REPOSITORY := quay.io/$(IMAGE_NAME)
+REPOSITORY := docker.bulogics.com/$(IMAGE_NAME)
 
 # Shell to use for running scripts
 SHELL := $(shell which bash)
